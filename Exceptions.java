@@ -1,0 +1,17 @@
+class Exception{
+ public static void main(String[] args){
+  int num1,num2,num3;
+  num1=20;
+  num2=0;
+  try{
+   num3=num1/num2;
+   System.out.println("Result is "+num3);
+  }
+  catch(ArithmeticException ae)
+{
+    System.out.println("Numbers cannot be divided by zero");
+}
+ num3=num1+num2;
+ System.out.println("Result after addition is "+num3);
+ }
+} 
