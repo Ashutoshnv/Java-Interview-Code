@@ -1,3 +1,0 @@
-Student Name	Roll		Marks
-vijay		47		553		
-Jordan		49		557		
